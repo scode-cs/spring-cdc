@@ -1,0 +1,16 @@
+{
+  "id" : "dd42a3f1-5cbd-4a1a-818c-c0392a90395a",
+  "request" : {
+    "url" : "/api/users",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"id\":\"1\",\"name\":\"User One\"},{\"id\":\"2\",\"name\":\"User Two\"}]",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "dd42a3f1-5cbd-4a1a-818c-c0392a90395a"
+}

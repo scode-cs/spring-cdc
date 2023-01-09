@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: Cloud Contract
+
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui
