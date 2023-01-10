@@ -1,16 +1,16 @@
 {
-  "id" : "f9f8ef2a-b352-4dda-9775-0309e924cea6",
+  "id" : "24e38db9-9228-4e16-9d91-c3a358818916",
   "request" : {
-    "url" : "/api/users/v1",
+    "url" : "/api/users/v1/1",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "body" : "[{\"id\":\"1\",\"name\":\"User One\"},{\"id\":\"2\",\"name\":\"User Two\"}]",
+    "body" : "{\"id\":\"1\",\"name\":\"User One\"}",
     "headers" : {
       "Content-Type" : "application/json"
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "f9f8ef2a-b352-4dda-9775-0309e924cea6"
+  "uuid" : "24e38db9-9228-4e16-9d91-c3a358818916"
 }

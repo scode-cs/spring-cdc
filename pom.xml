@@ -72,7 +72,15 @@
 				<extensions>true</extensions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
+<!--					<packageWithBaseClasses>com.scode.contractTest</packageWithBaseClasses>-->
+					<basePackageForTests>com.scode.contractTest</basePackageForTests>
 					<baseClassForTests>com.scode.contractTest.BaseTestClass</baseClassForTests>
+<!--					<baseClassMappings>-->
+<!--						<baseClassMapping>-->
+<!--							<contractPackageRegex>com.scode.contractTest.*</contractPackageRegex>-->
+<!--							<baseClassFQN>com.scode.contractTest.BaseTestClass</baseClassFQN>-->
+<!--						</baseClassMapping>-->
+<!--					</baseClassMappings>-->
 				</configuration>
 			</plugin>
 <!--			<plugin>-->

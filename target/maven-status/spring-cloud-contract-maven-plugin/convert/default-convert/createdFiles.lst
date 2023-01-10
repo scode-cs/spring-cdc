@@ -1,2 +1,7 @@
+META-INF/com.scode/spring-cdc/0.0.1-SNAPSHOT/mappings/get_user_contract_not_found.json
+META-INF/com.scode/spring-cdc/0.0.1-SNAPSHOT/contracts/get_departments_contract.groovy
+META-INF/com.scode/spring-cdc/0.0.1-SNAPSHOT/contracts/get_user_contract.groovy
 META-INF/com.scode/spring-cdc/0.0.1-SNAPSHOT/contracts/get_users_contract.groovy
+META-INF/com.scode/spring-cdc/0.0.1-SNAPSHOT/mappings/get_user_contract.json
 META-INF/com.scode/spring-cdc/0.0.1-SNAPSHOT/mappings/get_users_contract.json
+META-INF/com.scode/spring-cdc/0.0.1-SNAPSHOT/contracts/get_user_contract_not_found.groovy

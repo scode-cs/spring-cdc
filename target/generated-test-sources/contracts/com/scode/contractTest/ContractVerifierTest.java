@@ -17,6 +17,40 @@ import static io.restassured.module.mockmvc.RestAssuredMockMvc.*;
 public class ContractVerifierTest extends BaseTestClass {
 
 	@Test
+	public void validate_get_user_contract() throws Exception {
+		// given:
+			MockMvcRequestSpecification request = given();
+
+
+		// when:
+			ResponseOptions response = given().spec(request)
+					.get("/api/users/v1/1");
+
+		// then:
+			assertThat(response.statusCode()).isEqualTo(200);
+			assertThat(response.header("Content-Type")).matches("application/json.*");
+
+		// and:
+			DocumentContext parsedJson = JsonPath.parse(response.getBody().asString());
+			assertThatJson(parsedJson).field("['id']").isEqualTo("1");
+			assertThatJson(parsedJson).field("['name']").isEqualTo("User One");
+	}
+
+	@Test
+	public void validate_get_user_contract_not_found() throws Exception {
+		// given:
+			MockMvcRequestSpecification request = given();
+
+
+		// when:
+			ResponseOptions response = given().spec(request)
+					.get("/api/users/v1/10");
+
+		// then:
+			assertThat(response.statusCode()).isEqualTo(404);
+	}
+
+	@Test
 	public void validate_get_users_contract() throws Exception {
 		// given:
 			MockMvcRequestSpecification request = given();
@@ -24,7 +58,7 @@ public class ContractVerifierTest extends BaseTestClass {
 
 		// when:
 			ResponseOptions response = given().spec(request)
-					.get("/api/users");
+					.get("/api/users/v1");
 
 		// then:
 			assertThat(response.statusCode()).isEqualTo(200);

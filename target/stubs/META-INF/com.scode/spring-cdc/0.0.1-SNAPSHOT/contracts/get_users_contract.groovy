@@ -6,7 +6,7 @@ Contract.make {
     description "Should return a list of users"
 
     request {
-        url "/api/users"
+        url "/api/users/v1"
         method GET()
     }
 

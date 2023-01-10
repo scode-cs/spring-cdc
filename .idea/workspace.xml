@@ -47,14 +47,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/contracts" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/contracts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scode.contractTest" />
+      <recent name="com.scode.model.respnse" />
+      <recent name="com.scode.service" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpringCdcApplication">
     <configuration name="SpringCdcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.scode.SpringCdcApplication" />
       <module name="spring-cdc" />
@@ -68,9 +79,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContractVerifierTest.validate_get_user_contract_not_found" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-cdc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scode.contractTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scode.contractTest" />
+      <option name="MAIN_CLASS_NAME" value="com.scode.contractTest.ContractVerifierTest" />
+      <option name="METHOD_NAME" value="validate_get_user_contract_not_found" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpringCdcApplication" />
+        <item itemvalue="JUnit.ContractVerifierTest.validate_get_user_contract_not_found" />
       </list>
     </recent_temporary>
   </component>
@@ -84,5 +112,10 @@
       <updated>1673292988615</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_cdc$ContractVerifierTest_validate_get_user_contract_not_found.ic" NAME="ContractVerifierTest.validate_get_user_contract_not_found Coverage Results" MODIFIED="1673299033267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scode.contractTest.*</FILTER>
+    </SUITE>
   </component>
 </project>

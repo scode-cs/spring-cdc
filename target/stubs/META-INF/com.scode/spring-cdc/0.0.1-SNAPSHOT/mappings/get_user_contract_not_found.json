@@ -1,0 +1,12 @@
+{
+  "id" : "a1b5dd39-f580-433a-ad66-d85138225b05",
+  "request" : {
+    "url" : "/api/users/v1/10",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "a1b5dd39-f580-433a-ad66-d85138225b05"
+}

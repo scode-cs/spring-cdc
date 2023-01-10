@@ -1,4 +1,7 @@
+com/scode/service/DepartmentService.class
+com/scode/controller/DepartmentController.class
 com/scode/service/UserService.class
+com/scode/model/respnse/DepartmentResponse.class
 com/scode/model/respnse/UserResponse.class
 com/scode/controller/UserController.class
 com/scode/SpringCdcApplication.class
